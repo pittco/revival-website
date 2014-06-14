@@ -1,26 +1,26 @@
 .title h1 {
   font-size: 650%;
   font-family: 'Audiowide', cursive;
-  color: #5DE2FF;
+  color: #5BB8F0;
   text-shadow: 1px 1px 2px black, 
-    0 0 1em #5DE2FF, 
-    0 0 0.2em #5DE2FF;
+    0 0 1em #63E1F9, 
+    0 0 0.2em #63E1F9;
 }
 
 .title h4 {
   font-family: 'Audiowide', cursive;
-  color: #5DE2FF;
+  color: #5BB8F0;
   text-shadow: 1px 1px 2px black, 
-    0 0 1em #5DE2FF, 
-    0 0 0.2em #5DE2FF;
+    0 0 1em #63E1F9, 
+    0 0 0.2em #63E1F9;
 }
 
 .title h3 {
   font-size; 2em;
-  color: #FEFEFE;
-  text-shadow: 1px 1px 2px black, 
-    0 0 1em #5DE2FF, 
-    0 0 0.2em #5DE2FF;
+  color: #F0DD65;
+  /* text-shadow: 1px 1px 2px black, 
+    0 0 1em #63E1F9, 
+    0 0 0.2em #63E1F9; */
   margin: 0;
   padding: 0;
 }
@@ -55,33 +55,23 @@
   width: 100%;
 }
 
-body {
-  background-color: black;
-}
-
-.middle {
-  background-color: white;
-}
-
 .footer {
   background-color: white;
+}
+
+.footer .panel {
+  min-height: 100%;
 }
 
 .header {
   min-height: 100%;
-  background-image: url('../img/background-3.jpg');
+  background-image: url('../img/background.jpg');
   background-size: cover;
-
 }
 
 .middle {
   padding-top: 1em;
-  background-color: #3660CC;
-}
-
-.footer {
-  padding-top: 2em;
-  padding-bottom: 2em;
+  background-color: #5BB8F0;
 }
 
 .footer i {
@@ -103,7 +93,6 @@ body {
 .nav li a {
 }
 
-
 .nav li:before {
   content: " | ";
 }
@@ -116,10 +105,13 @@ img.sponsor {
   margin: 5px;
 }
 
-
-
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .header {
+    min-height: 100%;
+    background-image: url('../img/background-mobile.jpg');
+    background-size: cover;
+  }
+  
   .title h1 {
     font-size: 225%;
   }
@@ -141,6 +133,22 @@ img.sponsor {
   }
 
   .nav li {
-    font-size: 14px;
+    font-size: 11px;
+  }
+
+  .social-media {
+    text-align: left !important;
+  }
+
+  .copyright-text {
+    text-align: left !important;
+  }
+
+  .sponsors a {
+    display: block;
+  }
+
+  .sponsors img {
+    max-width: 100%;
   }
 }
