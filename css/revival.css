@@ -1,4 +1,3 @@
-
 .title h1 {
   font-size: 650%;
   font-family: 'Audiowide', cursive;
@@ -24,7 +23,6 @@
     0 0 0.2em #5DE2FF;
   margin: 0;
   padding: 0;
-  // margin-top: -2%;
 }
 
 .title h4 {
@@ -58,7 +56,7 @@
 }
 
 body {
-  // background-color: black;
+  background-color: black;
 }
 
 .middle {
@@ -114,3 +112,35 @@ body {
   content: "";
 }
 
+img.sponsor {
+  margin: 5px;
+}
+
+
+
+
+@media only screen and (max-width: 40em) {
+  .title h1 {
+    font-size: 325%;
+  }
+
+  .title h3 {
+    font-size: 155%;
+  }
+
+  .title h4 {
+    font-size: 125%;
+  }
+
+  .title img.pittco_logo {
+    width: 300px;
+  }
+
+  .button.success {
+    font-size: 115%;
+  }
+
+  .nav li {
+    font-size: 14px;
+  }
+}
