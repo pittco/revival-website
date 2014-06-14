@@ -121,23 +121,23 @@ img.sponsor {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
   .title h1 {
-    font-size: 325%;
+    font-size: 225%;
   }
 
   .title h3 {
-    font-size: 155%;
-  }
-
-  .title h4 {
     font-size: 125%;
   }
 
+  .title h4 {
+    font-size: 115%;
+  }
+
   .title img.pittco_logo {
-    width: 300px;
+    width: 265px;
   }
 
   .button.success {
-    font-size: 115%;
+    font-size: 105%;
   }
 
   .nav li {
