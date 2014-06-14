@@ -63,7 +63,7 @@ body {
 }
 
 .header {
-  min-height: 90%;
+  min-height: 85%;
   background-image: url('../img/background-3.jpg');
   background-size: cover;
 
@@ -71,6 +71,7 @@ body {
 
 .middle {
   padding-top: 1em;
+  background-color: #3660CC;
 }
 
 .footer {
@@ -78,6 +79,16 @@ body {
   padding-bottom: 2em;
 }
 
+.footer i {
+  font-size: 400%;
+  min-height: 40px;
+}
+
+.map {
+  width: 100%;
+  min-height: 400px;
+  border:0
+}
 
 .nav li {
   font-size: 1.1em;
