@@ -1,0 +1,98 @@
+
+.title h1 {
+  font-size: 650%;
+  font-family: 'Audiowide', cursive;
+  color: #5DE2FF;
+  text-shadow: 1px 1px 2px black; // , 0 0 1em #5DE2FF, 0 0 0.2em #5DE2FF;
+}
+
+.title h4 {
+  font-family: 'Audiowide', cursive;
+  color: #5DE2FF;
+  text-shadow: 1px 1px 2px black; // , 0 0 1em #5DE2FF, 0 0 0.2em #5DE2FF;
+}
+
+.title h3 {
+  font-size; 2em;
+  color: #FEFEFE;
+  text-shadow: 1px 1px 2px black; // , 0 0 1em #5DE2FF, 0 0 0.2em #5DE2FF;
+  margin: 0;
+  padding: 0;
+  margin-top: -4%;
+  margin-bottom: 5%;
+}
+
+.title h4 {
+  font-size: 2em;
+  margin-bottom: 10%;
+}
+
+.title {
+  padding-bottom: 4em;
+  padding-top: 4em;
+}
+
+.button.success {
+  background-color: #CC5136;
+}
+
+.button.success:focus {
+  background-color: #CC5136;
+}
+
+
+.button.success:hover {
+  background-color: #CC5136;
+}
+
+
+.schedule {
+  width: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+.middle {
+  background-color: white;
+}
+
+.footer {
+  background-color: white;
+}
+
+.header {
+  min-height: 90%;
+  background-image: url('../img/background-3.jpg');
+  background-size: cover;
+
+}
+
+.middle {
+  padding-top: 1em;
+}
+
+.footer {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+
+.nav li {
+  font-size: 1.1em;
+  display: inline-block;
+}
+
+.nav li a {
+}
+
+
+.nav li:before {
+  content: " | ";
+}
+
+.nav li:first-child:before {
+  content: "";
+}
+
