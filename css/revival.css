@@ -3,28 +3,34 @@
   font-size: 650%;
   font-family: 'Audiowide', cursive;
   color: #5DE2FF;
-  text-shadow: 1px 1px 2px black; // , 0 0 1em #5DE2FF, 0 0 0.2em #5DE2FF;
+  text-shadow: 1px 1px 2px black, 
+    0 0 1em #5DE2FF, 
+    0 0 0.2em #5DE2FF;
 }
 
 .title h4 {
   font-family: 'Audiowide', cursive;
   color: #5DE2FF;
-  text-shadow: 1px 1px 2px black; // , 0 0 1em #5DE2FF, 0 0 0.2em #5DE2FF;
+  text-shadow: 1px 1px 2px black, 
+    0 0 1em #5DE2FF, 
+    0 0 0.2em #5DE2FF;
 }
 
 .title h3 {
   font-size; 2em;
   color: #FEFEFE;
-  text-shadow: 1px 1px 2px black; // , 0 0 1em #5DE2FF, 0 0 0.2em #5DE2FF;
+  text-shadow: 1px 1px 2px black, 
+    0 0 1em #5DE2FF, 
+    0 0 0.2em #5DE2FF;
   margin: 0;
   padding: 0;
-  margin-top: -4%;
-  margin-bottom: 5%;
+  // margin-top: -2%;
 }
 
 .title h4 {
   font-size: 2em;
   margin-bottom: 10%;
+  margin-top: 2%;
 }
 
 .title {
@@ -34,6 +40,7 @@
 
 .button.success {
   background-color: #CC5136;
+  font-size: 150%;
 }
 
 .button.success:focus {
@@ -51,7 +58,7 @@
 }
 
 body {
-  background-color: black;
+  // background-color: black;
 }
 
 .middle {
@@ -63,7 +70,7 @@ body {
 }
 
 .header {
-  min-height: 85%;
+  min-height: 100%;
   background-image: url('../img/background-3.jpg');
   background-size: cover;
 
